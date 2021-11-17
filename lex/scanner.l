@@ -14,7 +14,7 @@
 
 %}
 
-%option noinput nounput 8bit nodefault
+%option nodefault
 %option debug
 %option noyywrap
 %option prefix="MyParser"
