@@ -23,6 +23,7 @@ clean:
 	${RM} location.hh
 	${RM} position.hh
 	${RM} *.o
-	${RM} parser.*
+	${RM} parser.hh
+	${RM} parser.cc
 	${RM} scanner.cc
 	${RM} stack.hh
