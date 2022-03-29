@@ -24,7 +24,7 @@ namespace MyParser
     private:
         Scanner*      scanner;
         Parser*       parser;
-        location*     location;
+        MyParser::location*     location;
 
 
         /// Allows Parser and Scanner to access private attributes
